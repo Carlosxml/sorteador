@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorteador</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <article class="article">
+    <h1 class="article__title">Sorteador</h1>
+
+    <form class="article__form">
+      <input type="number" name="input1" placeholder="Informe o primeiro valor" required>
+      <input type="number" name="input2" placeholder="Informe o segundo valor" required>
+      <input type="number" name="input3" placeholder="Informe o terceiro valor" required>
+      <input type="number" name="input4" placeholder="Informe o quarto valor" required>
+      <input type="number" name="input5" placeholder="Informe o quinto valor" required>
+
+      <button class="article__button">Enviar</button>
+    </form>
+
+    <div class="article__result d-none">
+      <p class="article__paragraph">
+        O número sorteado foi o
+        <span class="paragraph--highlight raffled-item">10</span>
+      </p>
+    </div>
+  </article>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
